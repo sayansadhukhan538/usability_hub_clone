@@ -1,0 +1,108 @@
+@media screen and (max-width: 991px){
+    .nav-toggle{
+        display: block;
+        margin-right: 23px;
+    }
+    .logo {
+        justify-content: space-between;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .navbar{
+        position: absolute;
+        background-color: #ffffff;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar.active{
+        left: 0;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .pic{
+        gap: 20px;
+    }
+    .example-cards{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+    .cta-section{
+        padding-block: 60px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .primary-button{
+        width: 100%;
+    }
+    .header{
+        flex-direction: column-reverse;
+    }
+    .left-header{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .right-header img{
+        width: 100%;
+    }
+    .bfs, #bfs{
+        flex-direction: column-reverse;
+        
+    }
+    .right-description{
+        align-items: center;
+    }
+    
+    .left-img{
+        max-width: 100vw;
+
+    }
+    .featured-card{
+        min-width: calc(50% - 10px);
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+    }
+    .link-column{
+        align-items: center;
+    }
+    .first{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 479px) {
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+      }
+    .first{
+        flex-direction: column-reverse;
+    }
+    .b1f{
+        gap: 20px;
+    }
+    .f1{
+        align-items: center;
+    }
+    .featured-card{
+        min-width: 100%;
+    }
+    .example-cards{
+        width: 100%
+    }
+}
